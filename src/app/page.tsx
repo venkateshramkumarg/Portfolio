@@ -20,7 +20,7 @@ const SidebarLayout= () => {
           <a href="#" className="block  hover:text-gray-600">Email</a>
         </nav>
       </aside>
-      <main className="flex-1 p-8 overflow-auto h-[100vh]">
+      <main className="flex-1 lg:p-8 p-6 overflow-auto h-[100vh]">
         <div className="grid grid-cols-1 gap-8">
           {/* Project X */}
           <div>
