@@ -1,113 +1,70 @@
-import Image from "next/image";
+import React from 'react';
+import { Sun,ArrowRight } from 'lucide-react';
 
-export default function Home() {
+const SidebarLayout= () => {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">src/app/page.tsx</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:size-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+    <div className="flex flex-col  lg:flex-row min-h-screen bg-white text-gray-900">
+      <aside className="lg:w-1/4 w-full p-10 border-r border-gray-200 max-h-screen">
+        <div className="h-[70%] flex flex-col gap-6 mb-10">
+          <Sun className="w-10 h-10" />
+          <h1 className="text-5xl font-bold max-w-96 tracking-tighter">Venkatesh</h1>
+          <p className="text-gray-600 text-2xl max-w-96">
+            Go from design to site with Framer, the web builder for creative pros.
+          </p>
         </div>
-      </div>
+        <nav className="h-[30%] text-2xl flex flex-col justify-end">
+          <a href="#" className="block py-2  hover:text-gray-600 mb-4">Twitter</a>
+          <a href="#" className="block py-2 border-t-2 border-gray-200 hover:text-gray-600 mb-4">Instagram</a>
+          <a href="#" className="block py-2 border-t-2  border-gray-200 hover:text-gray-600 mb-4">Email</a>
+        </nav>
+      </aside>
+      <main className="flex-1 p-8 overflow-auto h-[100vh]">
+        <div className="grid grid-cols-1 gap-8">
+          {/* Project X */}
+          <div>
+            <div className="bg-gray-100 h-[90vh] mb-4 "></div>
+            <div className="flex justify-between items-center">
+              <h2 className="text-xl font-semibold">Project X</h2>
+              <a href="#" className="text-gray-600 hover:text-gray-900 flex items-center text-xl">
+                View <ArrowRight className="ml-1 w-4 h-4" />
+              </a>
+            </div>
+          </div>
 
-      <div className="relative z-[-1] flex place-items-center before:absolute before:h-[300px] before:w-full before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 sm:before:w-[480px] sm:after:w-[240px] before:lg:h-[360px]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
+          <div>
+            <div className="bg-gray-100 h-[90vh] mb-4"></div>
+            <div className="flex justify-between items-center">
+              <h2 className="text-xl font-semibold">Project X</h2>
+              <a href="#" className="text-gray-600 hover:text-gray-900 flex items-center">
+                View <ArrowRight className="ml-1 w-4 h-4" />
+              </a>
+            </div>
+          </div>
 
-      <div className="mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Docs{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
+          <div>
+            <div className="bg-gray-100 h-[90vh] mb-4"></div>
+            <div className="flex justify-between items-center">
+              <h2 className="text-xl font-semibold">Project X</h2>
+              <a href="#" className="text-gray-600 hover:text-gray-900 flex items-center">
+                View <ArrowRight className="ml-1 w-4 h-4" />
+              </a>
+            </div>
+          </div>
 
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Learn{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
+          <div>
+            <div className="bg-gray-100 h-[90vh] mb-4"></div>
+            <div className="flex justify-between items-center">
+              <h2 className="text-xl font-semibold">Project X</h2>
+              <a href="#" className="text-gray-600 hover:text-gray-900 flex items-center">
+                View <ArrowRight className="ml-1 w-4 h-4" />
+              </a>
+            </div>
+          </div>
 
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Templates{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Explore starter templates for Next.js.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Deploy{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-balance text-sm opacity-50">
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
+        </div>
+      </main>
+    </div>
   );
-}
+};
+
+export default SidebarLayout;
