@@ -3,19 +3,21 @@ import { Sun,ArrowRight } from 'lucide-react';
 
 const SidebarLayout= () => {
   return (
-    <div className="flex flex-col  lg:flex-row min-h-screen bg-white text-gray-900">
-      <aside className="lg:w-1/4 w-full p-10 border-r border-gray-200 max-h-screen">
+    <div className="flex flex-col  lg:flex-row min-h-screen text-gray-900">
+      <aside className="lg:w-1/4 w-full lg:p-10 p-6 border-r border-gray-200 max-h-screen">
         <div className="h-[70%] flex flex-col gap-6 mb-10">
           <Sun className="w-10 h-10" />
           <h1 className="text-5xl font-bold max-w-96 tracking-tighter">Venkatesh</h1>
-          <p className="text-gray-600 text-2xl max-w-96">
+          <p className="text-gray-600 text-xl max-w-96 ">
             Go from design to site with Framer, the web builder for creative pros.
           </p>
         </div>
-        <nav className="h-[30%] text-2xl flex flex-col justify-end">
-          <a href="#" className="block py-2  hover:text-gray-600 mb-4">Twitter</a>
-          <a href="#" className="block py-2 border-t-2 border-gray-200 hover:text-gray-600 mb-4">Instagram</a>
-          <a href="#" className="block py-2 border-t-2  border-gray-200 hover:text-gray-600 mb-4">Email</a>
+        <nav className="h-[30%] text-base flex flex-col justify-end gap-3">
+          <a href="#" className="block  hover:text-gray-600">Twitter</a>
+          <hr className='w-full h-[0.5px] bg-gray-200' />
+          <a href="#" className="block hover:text-gray-600">Instagram</a>
+          <hr className='w-full h-[0.5px] bg-gray-200' />
+          <a href="#" className="block  hover:text-gray-600">Email</a>
         </nav>
       </aside>
       <main className="flex-1 p-8 overflow-auto h-[100vh]">
