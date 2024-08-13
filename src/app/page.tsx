@@ -7,7 +7,7 @@ const SidebarLayout= () => {
       <aside className="lg:w-1/4 w-full lg:p-10 p-6 border-r border-gray-200 max-h-screen">
         <div className="h-[70%] flex flex-col gap-6 mb-10">
           <Sun className="w-10 h-10" />
-          <h1 className="text-5xl font-bold max-w-96 tracking-tighter">Venkatesh</h1>
+          <h1 className="text-5xl font-semibold max-w-96 tracking-tighter">Venkatesh</h1>
           <p className="text-gray-600 text-xl max-w-96 ">
             Go from design to site with Framer, the web builder for creative pros.
           </p>
