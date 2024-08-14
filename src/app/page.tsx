@@ -1,5 +1,8 @@
 import React from 'react';
 import { Sun,ArrowRight } from 'lucide-react';
+import Image from 'next/image';
+import pintrestcover from '/public/pinterest.png';
+import trainapi from '/public/trainapi.png';
 
 const SidebarLayout= () => {
   return (
@@ -23,30 +26,30 @@ const SidebarLayout= () => {
       <main className="flex-1 lg:p-8 p-6 overflow-auto h-[100vh]">
         <div className="grid grid-cols-1 gap-8">
           <div>
-            <div className="bg-gray-100 h-[85vh] mb-4 "></div>
+            <Image src={pintrestcover} alt="hello" className=' aspect-auto w-full mb-5'/>
             <div className="flex justify-between items-center">
               <h2 className="text-xl font-semibold">Pintrest Frontend</h2>
-              <a href="https://github.com/venkateshramkumarg/Pintrest-Frontend" className="text-gray-600 hover:text-gray-900 flex items-center text-xl">
+              <a href="https://github.com/venkateshramkumarg/Pintrest-Frontend" target='blank'  className="text-gray-600 hover:text-gray-900 flex items-center text-xl">
                 View <ArrowRight className="ml-1 w-4 h-4" />
               </a>
             </div>
           </div>
 
           <div>
-            <div className="bg-gray-100 h-[90vh] mb-4"></div>
+          <Image src={pintrestcover} alt="hello" className=' aspect-auto w-full mb-5'/>
             <div className="flex justify-between items-center">
               <h2 className="text-xl font-semibold">Pintrest Backend</h2>
-              <a href="https://github.com/venkateshramkumarg/Pintrest-Backend_" className="text-gray-600 hover:text-gray-900 flex items-center">
+              <a href="https://github.com/venkateshramkumarg/Pintrest-Backend_" target='blank' className="text-gray-600 hover:text-gray-900 flex items-center">
                 View <ArrowRight className="ml-1 w-4 h-4" />
               </a>
             </div>
           </div>
 
           <div>
-            <div className="bg-gray-100 h-[90vh] mb-4"></div>
+          <Image src={trainapi} alt="hello" className=' aspect-auto w-full mb-5'/>
             <div className="flex justify-between items-center">
               <h2 className="text-xl font-semibold">Train Ticket Backend</h2>
-              <a href="https://github.com/venkateshramkumarg/Train-Ticket-Backend" className="text-gray-600 hover:text-gray-900 flex items-center">
+              <a href="https://github.com/venkateshramkumarg/Train-Ticket-Backend" target='blank' className="text-gray-600 hover:text-gray-900 flex items-center">
                 View <ArrowRight className="ml-1 w-4 h-4" />
               </a>
             </div>
