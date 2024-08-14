@@ -29,7 +29,7 @@ const SidebarLayout= () => {
           <div>
             <Image src={pinterest_frontend} alt="hello" className=' aspect-auto w-full mb-5'/>
             <div className="flex justify-between items-center">
-              <h2 className="text-xl font-semibold">Pintrest Frontend</h2>
+              <h2 className="text-xl font-semibold">Pinterest Frontend</h2>
               <a href="https://github.com/venkateshramkumarg/Pintrest-Frontend" target='blank'  className="text-gray-600 hover:text-gray-900 flex items-center text-xl">
                 View <ArrowRight className="ml-1 w-4 h-4" />
               </a>
@@ -39,7 +39,7 @@ const SidebarLayout= () => {
           <div>
           <Image src={pinterest_backend} alt="hello" className=' aspect-auto w-full mb-5'/>
             <div className="flex justify-between items-center">
-              <h2 className="text-xl font-semibold">Pintrest Backend</h2>
+              <h2 className="text-xl font-semibold">Pinterest Backend</h2>
               <a href="https://github.com/venkateshramkumarg/Pintrest-Backend_" target='blank' className="text-gray-600 hover:text-gray-900 flex items-center">
                 View <ArrowRight className="ml-1 w-4 h-4" />
               </a>
