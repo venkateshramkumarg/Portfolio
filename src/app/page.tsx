@@ -1,7 +1,8 @@
 import React from 'react';
 import { Sun,ArrowRight } from 'lucide-react';
 import Image from 'next/image';
-import pintrestcover from '/public/pinterest.png';
+import pinterest_frontend from '/public/pinterest_frontend.png';
+import pinterest_backend from '/public/pinterest_backend.png';
 import trainapi from '/public/trainapi.png';
 
 const SidebarLayout= () => {
@@ -26,7 +27,7 @@ const SidebarLayout= () => {
       <main className="flex-1 lg:p-8 p-6 overflow-auto h-[100vh]">
         <div className="grid grid-cols-1 gap-8">
           <div>
-            <Image src={pintrestcover} alt="hello" className=' aspect-auto w-full mb-5'/>
+            <Image src={pinterest_frontend} alt="hello" className=' aspect-auto w-full mb-5'/>
             <div className="flex justify-between items-center">
               <h2 className="text-xl font-semibold">Pintrest Frontend</h2>
               <a href="https://github.com/venkateshramkumarg/Pintrest-Frontend" target='blank'  className="text-gray-600 hover:text-gray-900 flex items-center text-xl">
@@ -36,7 +37,7 @@ const SidebarLayout= () => {
           </div>
 
           <div>
-          <Image src={pintrestcover} alt="hello" className=' aspect-auto w-full mb-5'/>
+          <Image src={pinterest_backend} alt="hello" className=' aspect-auto w-full mb-5'/>
             <div className="flex justify-between items-center">
               <h2 className="text-xl font-semibold">Pintrest Backend</h2>
               <a href="https://github.com/venkateshramkumarg/Pintrest-Backend_" target='blank' className="text-gray-600 hover:text-gray-900 flex items-center">
