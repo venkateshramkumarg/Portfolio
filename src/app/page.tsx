@@ -4,6 +4,7 @@ import Image from 'next/image';
 import pinterest_frontend from '/public/pinterest_frontend.png';
 import pinterest_backend from '/public/pinterest_backend.png';
 import trainapi from '/public/trainapi.png';
+import ecommerce_backend from '/public/ecommerce_backend.png';
 
 const SidebarLayout= () => {
   return (
@@ -51,6 +52,16 @@ const SidebarLayout= () => {
             <div className="flex justify-between items-center">
               <h2 className="text-xl font-semibold">Train Ticket Backend</h2>
               <a href="https://github.com/venkateshramkumarg/Train-Ticket-Backend" target='blank' className="text-gray-600 hover:text-gray-900 flex items-center">
+                View <ArrowRight className="ml-1 w-4 h-4" />
+              </a>
+            </div>
+          </div>
+
+          <div>
+          <Image src={ecommerce_backend} alt="hello" className=' aspect-auto w-full mb-5'/>
+            <div className="flex justify-between items-center">
+              <h2 className="text-xl font-semibold">E-Commerce Backend</h2>
+              <a href="https://github.com/venkateshramkumarg/ecommerce_backend.git" target='blank' className="text-gray-600 hover:text-gray-900 flex items-center">
                 View <ArrowRight className="ml-1 w-4 h-4" />
               </a>
             </div>
