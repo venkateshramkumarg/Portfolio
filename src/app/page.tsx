@@ -54,16 +54,16 @@ const SidebarLayout= () => {
               <a href="https://github.com/venkateshramkumarg/Train-Ticket-Backend" target='blank' className="text-gray-600 hover:text-gray-900 flex items-center">
                 View <ArrowRight className="ml-1 w-4 h-4" />
               </a>
-            </div>
+            </div>     
           </div>
-              <a href="https://github.com/venkateshramkumarg/ecommerce_backend.git" target='blank' className="text-gray-600 hover:text-gray-900 flex items-center">
-                <div>
-                  <Image src={ecommerce_backend} alt="hello" className=' aspect-auto w-full mb-5'/>
-                  </div>
+
+          <div>
+          <a href="https://github.com/venkateshramkumarg/ecommerce_backend.git" target='blank' className="text-gray-600 hover:text-gray-900 flex items-center">
+                    <Image src={ecommerce_backend} alt="hello" className=' aspect-auto w-full mb-5'/>
               </a>
-              <div className="flex justify-between items-center">
                     <h2 className="text-xl font-semibold">E-Commerce Backend</h2>
-                  </div>
+          </div>
+
         </div>
       </main>
     </div>
