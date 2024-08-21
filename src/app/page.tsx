@@ -1,5 +1,5 @@
 import React from 'react';
-import { Sun,ArrowRight } from 'lucide-react';
+import { Sun} from 'lucide-react';
 import Image from 'next/image';
 import pinterest_frontend from '/public/pinterest_frontend.png';
 import pinterest_backend from '/public/pinterest_backend.png';
