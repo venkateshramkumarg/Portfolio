@@ -18,11 +18,11 @@ const SidebarLayout= () => {
           </p>
         </div>
         <nav className="h-[25%] text-base flex flex-col justify-end gap-3">
-          <a href="https://www.linkedin.com/in/venkateshramkumar-g-819182258/" className="block  hover:text-gray-600">Linkedin</a>
+          <a href="https://www.linkedin.com/in/venkateshramkumar-g-819182258/"    target="blank" className="block  hover:text-gray-600">Linkedin</a>
           <hr className='w-full h-[0.5px] bg-gray-200' />
-          <a href="https://www.instagram.com/venkatesh_ram_kumar/" className="block hover:text-gray-600">Instagram</a>
+          <a href="https://www.instagram.com/venkatesh_ram_kumar/"   target="blank" className="block hover:text-gray-600">Instagram</a>
           <hr className='w-full h-[0.5px] bg-gray-200' />
-          <a href="mailto:venkateshramkumar3@gmail.com" className="block  hover:text-gray-600">Email</a>
+          <a href="mailto:venkateshramkumar3@gmail.com" target="blank" className="block  hover:text-gray-600">Email</a>
         </nav>
       </aside>
       <main className="flex-1 lg:p-8 p-6 overflow-auto h-[100vh]">
