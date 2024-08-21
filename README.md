@@ -23,25 +23,23 @@ This is my personal portfolio website showcasing my skills, projects, and experi
 - **pages/**: Contains the pages of the portfolio, including the main layout and individual project pages.
 - **styles/**: Contains global styles and Tailwind configuration.
 
-## Getting Started
+## Installation
 
-To run the project locally, follow these steps:
-
-1. **Clone the repository**:
+1. Clone the repository:
     ```bash
-    git clone https://github.com/venkateshramkumarg/your-portfolio-repo.git
+    git clone https://github.com/venkateshramkumarg/Portfolio
     ```
-2. **Navigate to the project directory**:
+2. Navigate to the project directory:
     ```bash
-    cd your-portfolio-repo
+    cd yourportfolio
     ```
-3. **Install dependencies**:
+3. Install dependencies using Bun.js:
     ```bash
-    npm install
+    bun install
     ```
-4. **Run the development server**:
+4. Run the development server:
     ```bash
-    npm run dev
+    bun run dev
     ```
 5. Open your browser and go to `http://localhost:3000` to view the portfolio.
 
