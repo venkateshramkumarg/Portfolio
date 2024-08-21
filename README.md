@@ -31,7 +31,7 @@ This is my personal portfolio website showcasing my skills, projects, and experi
     ```
 2. Navigate to the project directory:
     ```bash
-    cd yourportfolio
+    cd Portfolio
     ```
 3. Install dependencies using Bun.js:
     ```bash
