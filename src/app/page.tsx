@@ -56,17 +56,14 @@ const SidebarLayout= () => {
               </a>
             </div>
           </div>
-
               <a href="https://github.com/venkateshramkumarg/ecommerce_backend.git" target='blank' className="text-gray-600 hover:text-gray-900 flex items-center">
-                View <ArrowRight className="ml-1 w-4 h-4" />
                 <div>
                   <Image src={ecommerce_backend} alt="hello" className=' aspect-auto w-full mb-5'/>
-                  <div className="flex justify-between items-center">
-                    <h2 className="text-xl font-semibold">E-Commerce Backend</h2>
-                  </div>
                   </div>
               </a>
-
+              <div className="flex justify-between items-center">
+                    <h2 className="text-xl font-semibold">E-Commerce Backend</h2>
+                  </div>
         </div>
       </main>
     </div>
