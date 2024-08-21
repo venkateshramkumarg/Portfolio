@@ -14,7 +14,7 @@ const SidebarLayout= () => {
           <Sun className="w-10\ h-10" />
           <h1 className="text-4xl font-semibold max-w-100 tracking-tighter">Venkatesh G</h1>
           <p className="text-gray-600 text-xl max-w-96 ">
-          Full-stack developer proficient in React, TypeScript, MongoDB, and modern JavaScript frameworks, seeking a challenging role to build exceptional web applications.
+          Full-stack developer proficient in React, TypeScript, Prisma, Postgresql and modern JavaScript frameworks, seeking a challenging role to build exceptional web applications.
           </p>
         </div>
         <nav className="h-[25%] text-base flex flex-col justify-end gap-3">
@@ -27,7 +27,7 @@ const SidebarLayout= () => {
       </aside>
       <main className="flex-1 lg:p-8 p-6 overflow-auto h-[100vh]">
         <div className="grid grid-cols-1 gap-8">
-          
+
           <div>
               <a href="https://github.com/venkateshramkumarg/Pintrest-Frontend" target='blank'  className="text-gray-600 hover:text-gray-900 flex items-center text-xl">
               <Image src={pinterest_frontend} alt="hello" className=' aspect-auto w-full mb-5'/>
