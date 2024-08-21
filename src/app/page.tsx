@@ -27,39 +27,31 @@ const SidebarLayout= () => {
       </aside>
       <main className="flex-1 lg:p-8 p-6 overflow-auto h-[100vh]">
         <div className="grid grid-cols-1 gap-8">
+          
           <div>
-            <Image src={pinterest_frontend} alt="hello" className=' aspect-auto w-full mb-5'/>
-            <div className="flex justify-between items-center">
-              <h2 className="text-xl font-semibold">Pinterest Frontend</h2>
               <a href="https://github.com/venkateshramkumarg/Pintrest-Frontend" target='blank'  className="text-gray-600 hover:text-gray-900 flex items-center text-xl">
-                View <ArrowRight className="ml-1 w-4 h-4" />
+              <Image src={pinterest_frontend} alt="hello" className=' aspect-auto w-full mb-5'/>
               </a>
-            </div>
+              <h2 className="text-xl font-semibold">Pinterest Frontend</h2>
           </div>
 
           <div>
-          <Image src={pinterest_backend} alt="hello" className=' aspect-auto w-full mb-5'/>
-            <div className="flex justify-between items-center">
-              <h2 className="text-xl font-semibold">Pinterest Backend</h2>
               <a href="https://github.com/venkateshramkumarg/Pintrest-Backend_" target='blank' className="text-gray-600 hover:text-gray-900 flex items-center">
-                View <ArrowRight className="ml-1 w-4 h-4" />
+                <Image src={pinterest_backend} alt="hello" className=' aspect-auto w-full mb-5'/>
               </a>
-            </div>
+              <h2 className="text-xl font-semibold">Pinterest Backend</h2>
           </div>
 
           <div>
-          <Image src={trainapi} alt="hello" className=' aspect-auto w-full mb-5'/>
-            <div className="flex justify-between items-center">
-              <h2 className="text-xl font-semibold">Train Ticket Backend</h2>
               <a href="https://github.com/venkateshramkumarg/Train-Ticket-Backend" target='blank' className="text-gray-600 hover:text-gray-900 flex items-center">
-                View <ArrowRight className="ml-1 w-4 h-4" />
+                <Image src={trainapi} alt="hello" className=' aspect-auto w-full mb-5'/>
               </a>
-            </div>     
+              <h2 className="text-xl font-semibold">Train Ticket Backend</h2>     
           </div>
 
           <div>
-          <a href="https://github.com/venkateshramkumarg/ecommerce_backend.git" target='blank' className="text-gray-600 hover:text-gray-900 flex items-center">
-                    <Image src={ecommerce_backend} alt="hello" className=' aspect-auto w-full mb-5'/>
+              <a href="https://github.com/venkateshramkumarg/ecommerce_backend.git" target='blank' className="text-gray-600 hover:text-gray-900 flex items-center">
+                <Image src={ecommerce_backend} alt="hello" className=' aspect-auto w-full mb-5'/>
               </a>
                     <h2 className="text-xl font-semibold">E-Commerce Backend</h2>
           </div>
